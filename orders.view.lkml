@@ -26,7 +26,7 @@ view: orders {
 
   dimension: traffic_source {
     type: string
-    sql: ${TABLE}.traffic_sorce ;;
+    sql: ${TABLE}.traffic_source ;;
   }
 
   dimension: user_id {
