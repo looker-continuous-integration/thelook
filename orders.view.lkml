@@ -24,6 +24,11 @@ view: orders {
     sql: ${TABLE}.status ;;
   }
 
+  dimension: traffic_source {
+    type: string
+    sql: ${TABLE}.traffic_sorce ;;
+  }
+
   dimension: user_id {
     type: number
     # hidden: yes
