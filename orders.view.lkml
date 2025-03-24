@@ -27,7 +27,7 @@ view: orders {
   dimension: user_id {
     type: number
     # hidden: yes
-    sql: ${TABLE}.user_id ;;
+    sql: ${TABLE}.user_ddgid ;;
   }
 
   dimension: total_amount_of_order_usd {
