@@ -21,7 +21,7 @@ view: orders {
 
   dimension: status {
     type: string
-    sql: ${TABLE}.status ;;
+    sql: ${TABLE}.wrong_status ;;
   }
 
   dimension: user_id {
