@@ -1,10 +1,7 @@
-connection: "thelook"
+connection: "thelook_mysql"
 
 # include all the views
 include: "*.view"
-
-# include all the dashboards
-include: "*.dashboard"
 
 explore: inventory_items {
   join: products {
