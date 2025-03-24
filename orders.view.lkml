@@ -20,7 +20,7 @@ view: orders {
   }
 
   dimension: traffic_source {
-    sql: ${TABLE}.traffic_sorce ;;
+    sql: ${TABLE}.traffic_source ;;
   }
 
   dimension: status {
