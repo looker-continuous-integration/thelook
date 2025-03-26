@@ -7,7 +7,7 @@ view: products {
 
   dimension: brand {
     type: string
-    sql: ${TABLE}.not_a_brand ;;
+    sql: ${TABLE}.brand ;;
   }
 
   dimension: category {
