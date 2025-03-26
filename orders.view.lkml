@@ -19,7 +19,7 @@ view: orders {
     sql: ${TABLE}.created_at ;;
   }
 
-  dimension: status {
+  dimension: order_status {
     type: string
     sql: ${TABLE}.status ;;
   }
