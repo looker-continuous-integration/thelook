@@ -1,4 +1,8 @@
 view: order_items {
+  dimension: broken {
+    sql: ${TABLE}.broken_does_not_exist ;;
+  }
+
   dimension: id {
     primary_key: yes
     type: number
