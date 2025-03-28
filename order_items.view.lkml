@@ -22,13 +22,13 @@ view: order_items {
   dimension: inventory_item_id {
     type: number
     # hidden: yes
-    sql: ${TABLE}.inventory_item_id ;;
+    sql: ${TABLE}.bad_inventory_item_id ;;
   }
 
   dimension: order_id {
     type: number
     # hidden: yes
-    sql: ${TABLE}.order_id ;;
+    sql: ${TABLE}.bad_order_id ;;
   }
 
   dimension_group: returned {
