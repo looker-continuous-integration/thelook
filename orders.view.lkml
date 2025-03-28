@@ -21,13 +21,13 @@ view: orders {
 
   dimension: status {
     type: string
-    sql: ${TABLE}.wrong_status ;;
+    sql: ${TABLE}.status ;;
   }
 
   dimension: user_id {
     type: number
     # hidden: yes
-    sql: ${TABLE}.wrong_user_id ;;
+    sql: ${TABLE}.user_id ;;
   }
 
   dimension: total_amount_of_order_usd {
