@@ -3,6 +3,9 @@ connection: "thelook"
 # include all the views
 include: "*.view"
 
+# include the tests
+include: "*.test"
+
 explore: inventory_items {
   join: products {
     type: left_outer
