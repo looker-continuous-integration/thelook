@@ -19,9 +19,13 @@ view: orders {
     sql: ${TABLE}.created_at ;;
   }
 
-  dimension: status {
+  dimension: order_status {
     type: string
     sql: ${TABLE}.status ;;
+  }
+
+  dimension: traffic_source {
+    sql: ${TABLE}.traffic_sorce ;;
   }
 
   dimension: user_id {
