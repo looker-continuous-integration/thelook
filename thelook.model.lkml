@@ -1,4 +1,4 @@
-connection: "thelook"
+connection: "thelook_mysql"
 
 # include all the views
 include: "*.view"
